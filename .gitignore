@@ -1,0 +1,47 @@
+# Fichiers de configuration sensibles
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Clés AWS
+*.pem
+aws-credentials
+.aws/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+*.pem
+# Exclure toue les .md à part README.md
+*.md
+!README.md
+
+*.sh
